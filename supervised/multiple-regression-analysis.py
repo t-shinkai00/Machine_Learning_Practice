@@ -34,3 +34,4 @@ model=LinearRegression()
 
 # 学習
 model.fit(x_train, t_train)
+# print(model.coef_)
