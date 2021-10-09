@@ -6,3 +6,7 @@ import seaborn as sns
 from sklearn.datasets import load_boston
 dataset=load_boston()
 # print(dataset)
+
+x, t, columns=dataset.data, dataset.target, dataset.feature_names
+# print(type(x),x.shape)
+# print(type(t),t.shape)
