@@ -40,3 +40,4 @@ model.fit(x_train, t_train)
 # 重みの分布
 plt.figure(figsize=(10, 7))
 plt.bar(x=columns, height=model.coef_)
+# plt.show()
