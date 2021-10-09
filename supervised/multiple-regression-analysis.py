@@ -35,6 +35,7 @@ model=LinearRegression()
 # 学習
 model.fit(x_train, t_train)
 # print(model.coef_)
+# print(model.intercept_)
 
 # 重みの分布
 plt.figure(figsize=(10, 7))
