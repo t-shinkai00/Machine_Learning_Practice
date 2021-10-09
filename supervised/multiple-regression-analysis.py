@@ -27,3 +27,5 @@ from sklearn.linear_model import LinearRegression
 
 model=LinearRegression()
 # print(model)
+
+model.fit(x_train, t_train)
