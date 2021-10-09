@@ -10,3 +10,7 @@ dataset=load_boston()
 x, t, columns=dataset.data, dataset.target, dataset.feature_names
 # print(type(x),x.shape)
 # print(type(t),t.shape)
+
+df=pd.DataFrame(x,columns=columns)
+df["Target"]=t
+# print(df)
