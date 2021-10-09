@@ -14,3 +14,6 @@ x, t, columns=dataset.data, dataset.target, dataset.feature_names
 df=pd.DataFrame(x,columns=columns)
 df["Target"]=t
 # print(df)
+
+t=df["Target"].values
+x=df.drop(labels=["Target"], axis=1).values
