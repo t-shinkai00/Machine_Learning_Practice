@@ -5,5 +5,4 @@ import seaborn as sns
 
 from sklearn.datasets import load_boston
 dataset=load_boston()
-
-print(dataset)
+# print(dataset)
