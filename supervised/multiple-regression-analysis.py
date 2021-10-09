@@ -41,3 +41,7 @@ model.fit(x_train, t_train)
 plt.figure(figsize=(10, 7))
 plt.bar(x=columns, height=model.coef_)
 # plt.show()
+
+# スコアの確認
+print(f"train score: {model.score(x_train, t_train)}")
+print(f"test score: {model.score(x_test, t_test)}")
